@@ -4,8 +4,9 @@ Follow the installation guide: https://developer.hashicorp.com/terraform/install
 or
 
 # For Windows
+````text
 winget install Hashicorp.Terraform
-
+````
 Common Installation Commands
 # For macOS
 ````text
@@ -18,7 +19,7 @@ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://
 sudo apt update && sudo apt install terraform
 ````
 
-##Setup Commands
+## Setup Commands
 ````text
 terraform -install-autocomplete
 alias tf=terraform
