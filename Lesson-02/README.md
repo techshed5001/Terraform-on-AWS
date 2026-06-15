@@ -1,10 +1,11 @@
 # Lesson 2: Terraform Provider
 ## Topics Covered
-### Terraform Providers
-### Provider version vs Terraform core version
-### Why version matters
-### Version constraints
-### Operators for versions
++ Terraform Providers
++ Provider version vs Terraform core version
++ Why version matters
++ Version constraints
++ Operators for versions
+
 # Key Learning Points
 # What are Terraform Providers?
 Providers are plugins that allow Terraform to interact with cloud platforms, SaaS providers, and other APIs. For AWS, we use the hashicorp/aws provider.
