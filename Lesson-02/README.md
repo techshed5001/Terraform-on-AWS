@@ -35,7 +35,8 @@ Test provider upgrades in development first
 Document version requirements in your README
 Use terraform providers lock command for consistency
 Configuration Examples
-Basic Provider Configuration
+### Basic Provider Configuration
+----text
 terraform {
   required_providers {
     aws = {
@@ -48,6 +49,8 @@ terraform {
 provider "aws" {
   region = "us-east-1"
 }
+````
+````text
 Multiple Provider Versions
 terraform {
   required_providers {
@@ -61,5 +64,4 @@ terraform {
     }
   }
 }
-Next Steps
-Proceed to Day 3 to learn about creating your first AWS resources with Terraform and check task.md for your assignments.
+````
