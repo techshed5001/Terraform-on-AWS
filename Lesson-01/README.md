@@ -8,16 +8,22 @@ winget install Hashicorp.Terraform
 
 Common Installation Commands
 # For macOS
+````text
 brew install hashicorp/tap/terraform
-
+````
 # For Ubuntu/Debian
+````text
 wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
 echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt/sources.list.d/hashicorp.list
 sudo apt update && sudo apt install terraform
-Setup Commands
+````
+
+##Setup Commands
+````text
 terraform -install-autocomplete
 alias tf=terraform
 terraform -version
+````
 Common Installation Error (macOS)
 If you encounter:
 
