@@ -3,11 +3,12 @@ Follow the installation guide: https://developer.hashicorp.com/terraform/install
 
 or
 
+Common Installation Commands
+
 # For Windows
 ````text
 winget install Hashicorp.Terraform
 ````
-Common Installation Commands
 # For macOS
 ````text
 brew install hashicorp/tap/terraform
