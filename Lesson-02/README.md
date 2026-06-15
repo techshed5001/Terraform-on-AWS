@@ -11,9 +11,9 @@
 Providers are plugins that allow Terraform to interact with cloud platforms, SaaS providers, and other APIs. For AWS, we use the hashicorp/aws provider.
 
 ## Provider vs Terraform Core Version
-Terraform Core: The main Terraform binary that parses configuration and manages state
-Provider Version: Individual plugins that communicate with specific APIs (AWS, Azure, Google Cloud, etc.)
-They have independent versioning and release cycles
+- Terraform Core: The main Terraform binary that parses configuration and manages state
+- Provider Version: Individual plugins that communicate with specific APIs (AWS, Azure, Google Cloud, etc.)
+- They have independent versioning and release cycles
 ## Why Version Matters
 + Compatibility: Ensure provider works with your Terraform version
 + Stability: Pin to specific versions to avoid breaking changes
