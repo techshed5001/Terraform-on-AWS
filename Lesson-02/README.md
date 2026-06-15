@@ -5,7 +5,7 @@
 ### Why version matters
 ### Version constraints
 ### Operators for versions
-### Key Learning Points
+# Key Learning Points
 # What are Terraform Providers?
 Providers are plugins that allow Terraform to interact with cloud platforms, SaaS providers, and other APIs. For AWS, we use the hashicorp/aws provider.
 
@@ -21,12 +21,13 @@ Bug Fixes: Updates often include important security and bug fixes
 Reproducibility: Same versions ensure consistent behavior across environments
 ## Version Constraints
 Use version constraints to specify acceptable provider versions:
-
+````text
 = 1.2.3 - Exact version
 >= 1.2 - Greater than or equal to
 <= 1.2 - Less than or equal to
 ~> 1.2 - Pessimistic constraint (allow patch releases)
 >= 1.2, < 2.0 - Range constraint
+````
 ## Best Practices
 Always specify provider versions
 Use pessimistic constraints for stability
