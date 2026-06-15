@@ -56,9 +56,9 @@ winget install Amazon.AWSCLI
 # Using chocolatey
 choco install awscli
 ````
-````text
-macOS:
 
+## macOS:
+````text
 # Using official installer
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
 sudo installer -pkg AWSCLIV2.pkg -target /
