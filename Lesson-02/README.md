@@ -29,14 +29,14 @@ Use version constraints to specify acceptable provider versions:
 >= 1.2, < 2.0 - Range constraint
 ````
 ## Best Practices
-Always specify provider versions
-Use pessimistic constraints for stability
-Test provider upgrades in development first
-Document version requirements in your README
-Use terraform providers lock command for consistency
-Configuration Examples
+- Always specify provider versions
+- Use pessimistic constraints for stability
+- Test provider upgrades in development first
+- Document version requirements in your README
+- Use terraform providers lock command for consistency
+## Configuration Examples
 ### Basic Provider Configuration
-----text
+````text
 terraform {
   required_providers {
     aws = {
@@ -50,8 +50,9 @@ provider "aws" {
   region = "us-east-1"
 }
 ````
+
+### Multiple Provider Versions
 ````text
-Multiple Provider Versions
 terraform {
   required_providers {
     aws = {
