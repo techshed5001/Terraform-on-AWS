@@ -1,4 +1,4 @@
-# Day 4: State File Management - Remote Backend
+# Lesson 3: State File Management - Remote Backend
 
 ## Topics Covered
 - How Terraform updates Infrastructure
