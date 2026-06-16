@@ -2,7 +2,7 @@
 
 A simple demo showing the three types of Terraform variables using a basic S3 bucket.
 
-## 🎯 Three Types of Variables
+##  Three Types of Variables
 
 ### 1. **Input Variables** (`variables.tf`)
 Values you provide to Terraform - like function parameters
@@ -36,7 +36,7 @@ output "bucket_name" {
 }
 ```
 
-## 📥 Understanding Input Variables in Detail
+##  Understanding Input Variables in Detail
 
 ### What are Input Variables?
 Input variables are like **function parameters** - they allow you to customize your Terraform configuration without hardcoding values.
@@ -101,7 +101,7 @@ export TF_VAR_environment="development"
 terraform plan
 ```
 
-## 📤 Understanding Output Variables in Detail
+##  Understanding Output Variables in Detail
 
 ### What are Output Variables?
 Output variables are like **function return values** - they display important information after Terraform creates your infrastructure.
@@ -164,14 +164,14 @@ tags = {
 }
 ```
 
-## 🏗️ What This Creates
+##  What This Creates
 
 Just one simple S3 bucket that demonstrates all three variable types:
 - Uses **input variables** for environment and bucket name
 - Uses **local variables** for computed bucket name and tags
 - Uses **output variables** to show the created bucket details
 
-## 🚀 Variable Precedence Testing
+##  Variable Precedence Testing
 
 ### 1. **Default Values** (temporarily hide terraform.tfvars)
 ```bash
@@ -207,7 +207,7 @@ terraform plan -var-file="production.tfvars"  # environment = "production"
 ```
 ```
 
-## 📁 Simple File Structure
+##  Simple File Structure
 
 ```
 ├── main.tf           # S3 bucket resource
@@ -219,7 +219,7 @@ terraform plan -var-file="production.tfvars"  # environment = "production"
 └── README.md         # This file
 ```
 
-## 🧪 Practical Examples
+##  Practical Examples
 
 ### Example 1: Testing Different Input Values
 
@@ -283,7 +283,7 @@ terraform plan -var="environment=from-command-line" | grep Environment
 unset TF_VAR_environment
 ```
 
-## 🔧 Try These Commands
+##  Try These Commands
 
 ```bash
 # Initialize
@@ -306,7 +306,7 @@ terraform output
 terraform destroy
 ```
 
-## 💡 Key Takeaways
+##  Key Takeaways
 
 - **Input variables**: Parameterize your configuration
 - **Local variables**: Compute and reuse values
