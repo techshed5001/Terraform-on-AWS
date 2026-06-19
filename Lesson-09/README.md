@@ -1,4 +1,4 @@
-# Day 10: Terraform Dynamic Blocks, Conditional Expressions, and Splat Expressions
+# Lesson 9: Terraform Dynamic Blocks, Conditional Expressions, and Splat Expressions
 
 ## Topics Covered
 - **Conditional Expressions** - Make decisions in your configurations
