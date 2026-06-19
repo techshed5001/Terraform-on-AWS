@@ -142,13 +142,6 @@ resource_list[*].attribute_name
 - ✅ Get private IPs from instance list
 - ✅ Extract ARNs for outputs
 - ✅ Gather resource attributes for other resources
-
----
-
-## Next Steps
-
-Proceed to **Day 11** to learn about Terraform's built-in functions and how to use them effectively in your configurations.
-
 ---
 
 ## Additional Resources
