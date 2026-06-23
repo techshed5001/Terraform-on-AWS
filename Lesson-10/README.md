@@ -4,9 +4,6 @@
 
 Welcome to the Terraform Functions comprehensive learning guide! This lesson covers Terraform's built-in functions through 12 hands-on assignments. Each assignment focuses on specific functions and real-world use cases.
 
-
-**For step-by-step demo instructions, see [DEMO_GUIDE.md](DEMO_GUIDE.md)**
-
 ---
 
 ## Learning Objectives
