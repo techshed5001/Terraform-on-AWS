@@ -1,13 +1,13 @@
 # ==============================================================================
 # TERRAFORM FUNCTIONS LEARNING - AWS EDITION
 # ==============================================================================
-# This file contains 12 assignments demonstrating Terraform built-in functions
+# This file contains 12 lessong demonstrating Terraform built-in functions
 # Follow the DEMO_GUIDE.md for step-by-step instructions
 # Uncomment each assignment block one at a time to test individual functions
 # ==============================================================================
 
 # ==============================================================================
-# ASSIGNMENT 1: Project Naming Convention
+# Lesson 1: Project Naming Convention
 # ==============================================================================
 # Functions: lower(), replace()
 # Uncomment to test
@@ -38,7 +38,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 2: Resource Tagging
+# Lesson 2: Resource Tagging
 # ==============================================================================
 # Function: merge()
 # Uncomment to test
@@ -56,7 +56,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 3: S3 Bucket Naming
+# Lesson 3: S3 Bucket Naming
 # ==============================================================================
 # Functions: substr(), replace(), lower()
 # Uncomment to test
@@ -83,7 +83,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 4: Security Group Port Configuration
+# Lesson 4: Security Group Port Configuration
 # ==============================================================================
 # Functions: split(), join(), for expression
 # Uncomment to test
@@ -143,7 +143,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 5: Environment Configuration Lookup
+# Lesson 5: Environment Configuration Lookup
 # ==============================================================================
 # Function: lookup()
 # Uncomment to test
@@ -176,7 +176,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 6: Instance Type Validation
+# Lesson 6: Instance Type Validation
 # ==============================================================================
 # Functions: length(), contains(), can(), regex()
 # Note: Validation is already in variables.tf
@@ -210,7 +210,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 7: Backup Configuration
+# Lesson 7: Backup Configuration
 # ==============================================================================
 # Functions: endswith(), sensitive attribute
 # Note: Validation is in variables.tf
@@ -227,7 +227,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 8: File Path Processing
+# Lesson 8: File Path Processing
 # ==============================================================================
 # Functions: fileexists(), dirname(), file()
 # Uncomment to test
@@ -251,7 +251,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 9: Resource Location Management
+# Lesson 9: Resource Location Management
 # ==============================================================================
 # Functions: toset(), concat()
 # Uncomment to test
@@ -264,7 +264,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 10: Cost Calculation
+# Lesson 10: Cost Calculation
 # ==============================================================================
 # Functions: abs(), max(), for expression
 # Uncomment to test
@@ -285,7 +285,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 11: Timestamp Management
+# Lesson 11: Timestamp Management
 # ==============================================================================
 # Functions: timestamp(), formatdate()
 # Uncomment to test
@@ -316,7 +316,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 12: File Content Handling
+# Lesson 12: File Content Handling
 # ==============================================================================
 # Functions: file(), jsondecode(), sensitive()
 # Uncomment to test (requires config.json file)

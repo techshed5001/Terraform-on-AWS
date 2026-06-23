@@ -1,5 +1,5 @@
 # ==============================================================================
-# ASSIGNMENT 1 OUTPUTS: Project Naming
+# Lesson 1 OUTPUTS: Project Naming
 # ==============================================================================
 
 # output "formatted_project_name" {
@@ -13,7 +13,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 2 OUTPUTS: Resource Tagging
+# Lesson 2 OUTPUTS: Resource Tagging
 # ==============================================================================
 # Uncomment when testing Assignment 2
 
@@ -28,7 +28,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 3 OUTPUTS: S3 Bucket Naming
+# Lesson 3 OUTPUTS: S3 Bucket Naming
 # ==============================================================================
 # Uncomment when testing Assignment 3
 
@@ -48,7 +48,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 4 OUTPUTS: Security Group Ports
+# Lesson 4 OUTPUTS: Security Group Ports
 # ==============================================================================
 # Uncomment when testing Assignment 4
 
@@ -73,7 +73,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 5 OUTPUTS: Environment Configuration
+# Lesson 5 OUTPUTS: Environment Configuration
 # ==============================================================================
 # Uncomment when testing Assignment 5
 
@@ -93,7 +93,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 6 OUTPUTS: Instance Type Validation
+# Lesson 6 OUTPUTS: Instance Type Validation
 # ==============================================================================
 # Uncomment when testing Assignment 6
 
@@ -108,7 +108,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 7 OUTPUTS: Backup Configuration
+# Lesson 7 OUTPUTS: Backup Configuration
 # ==============================================================================
 # Uncomment when testing Assignment 7
 
@@ -130,7 +130,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 8 OUTPUTS: File Path Processing
+# Lesson 8 OUTPUTS: File Path Processing
 # ==============================================================================
 # Uncomment when testing Assignment 8
 
@@ -145,7 +145,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 9 OUTPUTS: Location Management
+# Lesson 9 OUTPUTS: Location Management
 # ==============================================================================
 # Uncomment when testing Assignment 9
 
@@ -165,7 +165,7 @@
   # }
 
 # ==============================================================================
-# ASSIGNMENT 10 OUTPUTS: Cost Calculation
+# Lesson 10 OUTPUTS: Cost Calculation
 # ==============================================================================
 # Uncomment when testing Assignment 10
 
@@ -195,7 +195,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 11 OUTPUTS: Timestamp Management
+# Lesson 11 OUTPUTS: Timestamp Management
 # ==============================================================================
 # Uncomment when testing Assignment 11
 
@@ -220,7 +220,7 @@
 # }
 
 # ==============================================================================
-# ASSIGNMENT 12 OUTPUTS: File Content Handling
+# Lesson 12 OUTPUTS: File Content Handling
 # ==============================================================================
 # Uncomment when testing Assignment 12
 
